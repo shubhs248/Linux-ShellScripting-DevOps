@@ -78,6 +78,12 @@ cat 03-loops/README.md
 
 ---
 
+## 🎤 Prepping for an interview?
+
+After you've done the exercises, open **[INTERVIEW-QUESTIONS.md](INTERVIEW-QUESTIONS.md)** — the shell/Linux questions interviewers actually ask, in plain English, with short answers you can say out loud and live-coding prompts to rehearse.
+
+---
+
 ## ⭐ Found this useful?
 
 If this lab helped you, here is how you can support it and help others find it:
