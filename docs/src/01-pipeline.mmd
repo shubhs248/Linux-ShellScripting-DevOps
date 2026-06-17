@@ -1,0 +1,9 @@
+flowchart LR
+    f[(access.log)] --> g[grep:<br/>find ERROR lines]
+    g --> a[awk:<br/>print column 1]
+    a --> s[sort]
+    s --> u[uniq -c:<br/>count duplicates]
+    u --> r[sort -rn:<br/>rank by count]
+
+    class f data
+    class g,a,s,u,r app

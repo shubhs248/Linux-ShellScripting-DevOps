@@ -1,0 +1,9 @@
+flowchart TB
+    start([Start]) --> chk{more items?<br/>condition true?}
+    chk -->|yes| body[run loop body]
+    body --> chk
+    chk -->|no| done([Continue script])
+
+    class start,done client
+    class chk edge
+    class body app

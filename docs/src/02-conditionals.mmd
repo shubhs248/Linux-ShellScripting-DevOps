@@ -1,0 +1,13 @@
+flowchart TB
+    start([Start]) --> c1{condition 1?}
+    c1 -->|true| a1[run block 1]
+    c1 -->|false| c2{condition 2?}
+    c2 -->|true| a2[run block 2]
+    c2 -->|false| e[run else block]
+    a1 --> done([Continue])
+    a2 --> done
+    e --> done
+
+    class start,done client
+    class c1,c2 edge
+    class a1,a2,e app

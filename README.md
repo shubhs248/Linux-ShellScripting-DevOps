@@ -14,6 +14,20 @@ Most "learn bash" resources are either a tiny cheatsheet or a huge book. This si
 
 You practise on data that looks like the real world: a list of employees, a web-server log file, a list of servers to check, and a file of numbers.
 
+## 🗺️ Visual overview
+
+A picture before the practice. Full set (light + dark, ready for slides/LinkedIn) is in the [diagram gallery](docs/README.md).
+
+**How a shell pipeline works** — each command is a filter; data flows left to right (`cmd | cmd | cmd`).
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/01-pipeline-dark.png"><img alt="How a shell pipeline works" src="docs/01-pipeline.png"></picture>
+
+**Conditionals and loops** — the two building blocks of every script.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/02-conditionals-dark.png"><img alt="if elif else flow" src="docs/02-conditionals.png"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/03-loops-dark.png"><img alt="Loop flow" src="docs/03-loops.png"></picture>
+
 ## 🗂️ What's inside
 
 ```
