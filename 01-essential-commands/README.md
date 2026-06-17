@@ -1,5 +1,9 @@
 # Part 1 — Essential Linux Commands (Warm-up)
 
+*How a pipeline works — each command is a filter, data flows left to right:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/01-pipeline-dark.png"><img alt="How a shell pipeline works" src="../docs/01-pipeline.png"></picture>
+
 ## 🎯 Goal
 Refresh the commands you use **every single day** on a Linux machine to read and process text, using real-looking data instead of toy examples.
 

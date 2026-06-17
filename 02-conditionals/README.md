@@ -1,5 +1,9 @@
 # Part 2 — Conditionals (Making Decisions)
 
+*The shape of an `if` / `elif` / `else` decision:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/02-conditionals-dark.png"><img alt="if elif else flow" src="../docs/02-conditionals.png"></picture>
+
 ## 🎯 Goal
 Teach your scripts to **make choices**: do one thing or another based on a value, check user input, and react to the state of files and the system.
 

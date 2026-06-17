@@ -1,5 +1,9 @@
 # Part 3 — Loops (Doing Things Again and Again)
 
+*Every loop is this cycle — check the condition, run the body, repeat:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/03-loops-dark.png"><img alt="Loop flow" src="../docs/03-loops.png"></picture>
+
 ## 🎯 Goal
 Make your scripts repeat work for you: go through a list or a file, read input one line at a time, and keep trying until something is ready.
 
