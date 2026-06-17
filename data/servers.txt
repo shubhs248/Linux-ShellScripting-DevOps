@@ -1,0 +1,11 @@
+# hostname status port
+web-01 up 80
+web-02 up 80
+web-03 down 80
+db-01 up 5432
+db-02 down 5432
+cache-01 up 6379
+queue-01 up 5672
+api-01 down 8080
+api-02 up 8080
+monitor-01 up 9090
